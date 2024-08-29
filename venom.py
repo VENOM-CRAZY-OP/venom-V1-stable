@@ -194,7 +194,7 @@ def process_attack_command(message):
         if len(args) != 3:
             bot.send_message(message.chat.id, "*𝙄𝙣𝙫𝙖𝙡𝙞𝙙 𝙁𝙤𝙧𝙢𝙖𝙩. 𝙐𝙨𝙚: /bgmi <target_ip target_port time*", parse_mode='Markdown')
             return
-        target_ip, target_port, duration = args[0], int(args[1]), args[2]
+        target_ip, target_port, duration, threads = args[0], int(args[1]), args[2]
 
         if target_port in blocked_ports:
             bot.send_message(message.chat.id, f"*𝙋𝙤𝙧𝙩 {target_port} 𝙞𝙨 𝙗𝙡𝙤𝙘𝙠𝙚𝙙 𝙐𝙨𝙚 𝙙𝙚𝙛𝙛𝙚𝙧𝙚𝙣𝙩 𝙥𝙤𝙧𝙩.*", parse_mode='Markdown')
