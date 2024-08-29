@@ -230,7 +230,7 @@ def send_welcome(message):
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
     if message.text == "𝘼𝙩𝙩𝙖𝙘𝙠1":
-        bot.reply_to(message, "*𝘼𝙩𝙩𝙖𝙘𝙠1 𝙎𝙚𝙡𝙚𝙘𝙩𝙚𝙙 𝐎𝐖𝐍𝐄𝐑= @{OWNER_USERNAME}*", parse_mode='Markdown')
+        bot.reply_to(message, "*𝘼𝙩𝙩𝙖𝙘𝙠1 𝙎𝙚𝙡𝙚𝙘𝙩𝙚𝙙*", parse_mode='Markdown')
     elif message.text == "𝘼𝙩𝙩𝙖𝙘𝙠2":
         bot.reply_to(message, "*𝘼𝙩𝙩𝙖𝙘𝙠2 𝙎𝙚𝙡𝙚𝙘𝙩𝙚𝙙*", parse_mode='Markdown')
         attack_command(message)
