@@ -8,7 +8,7 @@ BOT_TOKEN=("TOKEN")
 OWNER_USERNAME=("venomXcrazy")
 
   #Enter your group id here Get it by creating a group that group add your bot and ross bot then public it and type /id to get your id
-GROUP ID=("GROUPid")
+GROUP_ID=("GROUPid")
 
 
 
