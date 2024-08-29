@@ -7,8 +7,8 @@ BOT_TOKEN=("7255048090:AAFpMpH9KDNrr3BpnlAlraE5c2UkqhlSY5w")
   #Enter Your telegram username here without @
 OWNER_USERNAME=("")
 
-  #Enter your admin id here Get it from @missRose_bot by typing /info
-ADMIN_ID=("")
+  #Enter your group id here Get it by creating a group that group add your bot and ross bot then public it and type /id to get your id
+GROUP ID=("")
 
 
 
