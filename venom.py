@@ -13,7 +13,7 @@ from threading import Thread
 import asyncio
 import aiohttp
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
-from config import BOT_TOKEN, GROUP_ID, OWNER_USERNAME
+from config import BOT_TOKEN, GROUP_ID
 loop = asyncio.get_event_loop()
 
 TOKEN = 'BOT_TOKEN'
